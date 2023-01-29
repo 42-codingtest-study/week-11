@@ -45,18 +45,23 @@ git checkout -b chanwoong // 자신의 이름
 
 ## 🤓 mandatory part
 
-- [골드바흐 파티션](https://www.acmicpc.net/problem/17103)
-- [다이어트](https://www.acmicpc.net/problem/1484)
-- [거의 소수](https://www.acmicpc.net/problem/1456)
-- [소수인팰린드롬](https://www.acmicpc.net/problem/1990)
-- [어려운 소인수분해](https://www.acmicpc.net/problem/16563)
+- [다음 소수](https://www.acmicpc.net/problem/4134)
+- [Base Convension](https://www.acmicpc.net/problem/11576)
+- [최소공배수](https://www.acmicpc.net/problem/13241)
+- [최대공약수](https://www.acmicpc.net/problem/1850)
+- [GCD 합](https://www.acmicpc.net/problem/9613)
+- [수 복원하기](https://www.acmicpc.net/problem/2312)
+- [관중석](https://www.acmicpc.net/problem/10166)
+- [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
+- [소수상근수](https://www.acmicpc.net/problem/9421)
+- [보이는 점의 개수](https://www.acmicpc.net/problem/2725)
 
 ## 🧐 bonus part
 
 한번 도전해볼만 한 문제 -> 저번 주에 했던거 복습 + 심화
 
-- [수학은 너무 쉬워](https://www.acmicpc.net/problem/2904)
-- [네 개의 소수](https://www.acmicpc.net/problem/1153)
-- [조합(Combination)](https://www.acmicpc.net/problem/16134)
+이번주는 보너스 없습니다 ~
+
+그대신 실버 난이도로 10문제 뽑았는데, 최소 7문제 이상 풀고 제출했으면 좋겠습니다 ~ 그래도 아마 저번주 과제보다 시간은 적게 걸릴거예요.
 
 <br>그럼 모두 파이팅 !!! 🔥🔥🔥
