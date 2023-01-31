@@ -63,7 +63,56 @@ BigInteger 클래스에서 두가지의 메서드를 사용해봤습니다
 다음 소수를 찾아줍니다
 
 
-- [ ] [Base Convension](https://www.acmicpc.net/problem/11576)
+- [x] [Base Convension](https://www.acmicpc.net/problem/11576)
+
+진법 변환을 돕는 메서드는 다음과 같습니다
+
+## 10진법 to n진법
+
+```java
+int a = 25;
+
+int BaseN_Number = Integer.toString(a, (int)N);
+```
+
+
+## n진법 to 10진법
+
+```java
+String a = "25";
+
+int BaseN_Number = Integer.parseInt(a,(int)N);
+```
+
+해당 문제는 숫자를 자릿수로 구분하고 있으므로 이를 고려해야 합니다
+
+로직에 Stack 자료구조를 활용했습니다
+
+## Stack
+
+- 선언
+
+```java
+Stack<Integer> stack = new Stack();
+Stack<String> stack = new Stack<>();
+```
+
+- 메서드
+
+    값 추가
+
+    - add()
+    - push()
+
+    값 삭제
+
+    - pop()
+    - clear() // all
+    
+    가장 상단의 값을 가져오기
+
+    - peak() // 값 제거 x
+
 - [ ] [최소공배수](https://www.acmicpc.net/problem/13241)
 - [ ] [최대공약수](https://www.acmicpc.net/problem/1850)
 - [ ] [GCD 합](https://www.acmicpc.net/problem/9613)
