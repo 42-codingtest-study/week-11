@@ -145,7 +145,21 @@ int gcd(int a, int b)
 lcd = (a * b) / gcd;
 ```
 
-- [ ] [최대공약수](https://www.acmicpc.net/problem/1850)
+- [x] [최대공약수](https://www.acmicpc.net/problem/1850)
+
+엄청나게 많은 숫자가 입력될 경우 자료형의 범위를 먼저 생각해보고
+
+이후 함정은 아닐까 생각해보자
+
+1을 500000000000000000 번 쓰면 1천조에 해당한다
+
+1로 변환하고 공약수를 구하는 것이 아닌,
+
+먼저 공약수를 구하고 그 숫자만큼 1을 출력하면 되는 규칙이었다
+
+이 문제를 통해 print()를 여러 번 호출할 경우 println() 한 번과 확연히 차이가 날 수 있음을 느꼈다
+
+
 - [ ] [GCD 합](https://www.acmicpc.net/problem/9613)
 - [ ] [수 복원하기](https://www.acmicpc.net/problem/2312)
 - [ ] [관중석](https://www.acmicpc.net/problem/10166)
