@@ -113,7 +113,38 @@ Stack<String> stack = new Stack<>();
 
     - peak() // 값 제거 x
 
-- [ ] [최소공배수](https://www.acmicpc.net/problem/13241)
+- [x] [최소공배수](https://www.acmicpc.net/problem/13241)
+
+유클리드 호제법을 활용해 최대 공약수를 구한다
+
+조건 = a > b
+```c
+int gcd(int a, int b)
+{
+    while (b > 0)
+    {
+        int tmp = a;
+        a = b;
+        b = tmp%b;
+    }
+    return a;
+}
+```
+
+재귀를 활용
+```c
+int gcd(int a, int b)
+{
+    return b ? gcd(b, a%b) : a;
+}
+```
+
+최대공약수를 활용해 최소 공배수를 구한다
+
+```c
+lcd = (a * b) / gcd;
+```
+
 - [ ] [최대공약수](https://www.acmicpc.net/problem/1850)
 - [ ] [GCD 합](https://www.acmicpc.net/problem/9613)
 - [ ] [수 복원하기](https://www.acmicpc.net/problem/2312)
