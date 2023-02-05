@@ -160,10 +160,10 @@ lcd = (a * b) / gcd;
 이 문제를 통해 print()를 여러 번 호출할 경우 println() 한 번과 확연히 차이가 날 수 있음을 느꼈다
 
 
-- [ ] [GCD 합](https://www.acmicpc.net/problem/9613)
-- [ ] [수 복원하기](https://www.acmicpc.net/problem/2312)
-- [ ] [관중석](https://www.acmicpc.net/problem/10166)
+- [x] [GCD 합](https://www.acmicpc.net/problem/9613)
+- [x] [수 복원하기](https://www.acmicpc.net/problem/2312)
+- [x] [관중석](https://www.acmicpc.net/problem/10166)
 - [ ] [골드바흐의 추측](https://www.acmicpc.net/problem/6588)
-- [ ] [소수상근수](https://www.acmicpc.net/problem/9421)
+- [x] [소수상근수](https://www.acmicpc.net/problem/9421)
 - [ ] [보이는 점의 개수](https://www.acmicpc.net/problem/2725)
 
