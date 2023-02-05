@@ -41,3 +41,4 @@ function solution(input) {
     if (p > value / 2) p = 3;
   }
 }
+//a
