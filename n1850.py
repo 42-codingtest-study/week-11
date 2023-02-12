@@ -1,12 +1,22 @@
-# 다시
+# <정수론>
+# 1850
+# 최대공약수
+# https://www.acmicpc.net/problem/1850
+
+import sys
+input = sys.stdin.readline
+
 a, b = map(int, input().split())
 
-if a % b == 0 or b % a == 0:
-    if a > b:
-        for i in range(b):
-            print(1, end='')
-    else:
-        for i in range(a):
-            print(1, end='')
-else:
-    print(1)
+# 유클리드 호제법 사용 -? 왜
+def gcd(x, y):
+
+    if x < y:
+        x, y = y, x
+
+    while y:
+        x, y= y, x % y
+
+    return x
+
+print('1' * gcd(a, b))
